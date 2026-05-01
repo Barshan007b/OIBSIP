@@ -4,8 +4,30 @@ This repository contains the tasks completed during the Oasis Infobyte internshi
 
 ## 📁 Repository Structure
 
+- **[task 1/](./task%201/)**: Smart BMI Tracker & Analyzer
 - **[task 2/](./task%202/)**: Secure Password Generator Pro
 - **[TASK 3/](./TASK%203/)**: Smart Weather Forecast Application
+
+## ⚖ Task 1: Smart BMI Tracker & Analyzer
+
+A feature-rich health monitoring dashboard with profile management and data visualization.
+
+### Key Features:
+- **Profile Management**: Support for multiple users with persistent profile data.
+- **Dynamic BMI Calculation**: Real-time BMI calculation with interactive gauge visualization.
+- **Advanced Categorization**: Detailed health category classification with personalized health messages.
+- **History Tracking**: Comprehensive history table using SQLite for persistent record storage.
+- **Data Visualization**: 
+    - **Trend Charts**: Matplotlib-based line graphs showing weight/BMI progress over time.
+    - **Distribution**: Pie/Donut charts for category distribution.
+    - **Statistics**: Bar charts showing min/max/avg metrics.
+- **Export Capabilities**: Export user history to CSV and save generated charts as PNG images.
+- **Premium GUI**: Modern dark-mode interface with smooth transitions and high-DPI support.
+
+### 🚀 How to Run:
+1. Navigate to the `task 1` folder.
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run: `python app.py`
 
 ---
 
@@ -58,9 +80,11 @@ A modern weather dashboard providing real-time data and long-term forecasts.
 - **Language**: Python 3.x
 - **GUI**: Tkinter (with custom styling)
 - **API Communication**: Requests
+- **Data Visualization**: Matplotlib, NumPy
+- **Database**: SQLite3
 - **Image Processing**: Pillow (PIL)
 - **Geocoding**: Geocoder (ArcGIS/IP)
-- **Utilities**: Pyperclip, JSON, CSV
+- **Utilities**: Pyperclip, JSON, CSV, OS, Datetime
 
 ---
 Created by Antigravity AI assistant for Oasis Infobyte Internship tasks.
