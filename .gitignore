@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+weather_history.json
+history.json
+.env
+.vscode/
